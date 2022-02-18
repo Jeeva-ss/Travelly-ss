@@ -1,0 +1,28 @@
+// Footer
+
+footer {
+  color: #0f0e0e;
+  background: #fff;
+  .footer-wrapper {
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+    img {
+      width: 2.8rem;
+    }
+    h5 {
+      flex: 2 1 40rem;
+    }
+    ul {
+      list-style: none;
+      flex: 1 1 40rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

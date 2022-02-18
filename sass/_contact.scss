@@ -1,0 +1,43 @@
+// Contact
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/img/contact.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .form-wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    width: 60%;
+    color: #fff;
+    border-radius: 2rem;
+    label {
+      margin: 0 3rem;
+    }
+    button {
+      font-size: 1.8rem;
+      width: 100%;
+      padding: 2rem;
+      margin-top: 8rem;
+      border-top-left-radius: 0rem;
+      border-top-right-radius: 0rem;
+      border-bottom-left-radius: 2rem;
+      border-bottom-right-radius: 2rem;
+    }
+    input {
+      padding: 1rem 2rem;
+    }
+    .form-head {
+      text-align: center;
+      padding: 4rem;
+    }
+    .name-form,
+    .email-form {
+      padding: 3rem;
+      text-align: center;
+    }
+  }
+}
