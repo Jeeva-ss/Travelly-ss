@@ -1,19 +1,19 @@
 // Hero
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
-    url("/img/hero.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: #fff;
-  text-align: center;
-  h3 {
-    padding: 5rem 0;
-  }
+	background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
+		url("/img/hero.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	text-align: center;
+	h3 {
+		padding: 5rem 0;
+	}
 }

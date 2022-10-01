@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -24,10 +23,8 @@ button {
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
-
 button:hover {
   background: #273c75;
 }
@@ -37,6 +34,7 @@ label,
 input,
 p {
   font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -69,102 +67,68 @@ h5 {
   color: #fff;
   position: -webkit-sticky;
   position: sticky;
+  z-index: 9999;
   top: 0;
 }
-
 .main-head nav {
   min-height: 10vh;
   padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 90%;
   margin: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
 .main-head nav #logo {
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 40rem;
-          flex: 2 1 40rem;
+  flex: 2 1 40rem;
 }
-
 .main-head nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
   list-style: none;
+}
+.main-head nav ul a:hover {
+  border-bottom: 1px solid #fff;
 }
 
 .hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(transparent)), url("/img/hero.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/img/hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("/img/hero.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 90vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   color: #fff;
   text-align: center;
 }
-
 .hero h3 {
   padding: 5rem 0;
 }
 
 #locations {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/img/location.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/location.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/img/location.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 #locations .locations-head {
   width: 90%;
   margin: auto;
 }
-
 #locations .locations-head h2 {
   padding: 1rem 0;
   text-decoration: underline;
   text-decoration-thickness: 0.5rem;
 }
-
 #locations .locations-head h3 {
   padding: 4rem 0;
 }
@@ -172,53 +136,32 @@ h5 {
 #benefits .benefits-head {
   background: #0f0e0e;
   min-height: 30vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 3rem;
 }
-
 #benefits .benefits-head h3 {
   padding: 1rem;
 }
-
 #benefits .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 90%;
   margin: auto;
   min-height: 40vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
 }
-
 #benefits .cards .card {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 25rem;
-          flex: 1 1 25rem;
+  flex: 1 1 25rem;
   margin: 2rem 5rem;
   border-radius: 1rem;
-  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 }
-
 #benefits .cards .card img {
   width: 100%;
   height: 100%;
@@ -227,7 +170,6 @@ h5 {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
-
 #benefits .cards .card h4,
 #benefits .cards .card p {
   padding: 1rem;
@@ -235,32 +177,24 @@ h5 {
 
 #contact {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/img/contact.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/contact.jpg");
+  z-index: 9500;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("/img/contact.jpg");
   background-position: center;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 #contact .form-wrapper {
   background: rgba(0, 0, 0, 0.8);
   width: 60%;
   color: #fff;
   border-radius: 2rem;
 }
-
 #contact .form-wrapper label {
   margin: 0 3rem;
 }
-
 #contact .form-wrapper button {
   font-size: 1.8rem;
   width: 100%;
@@ -271,16 +205,13 @@ h5 {
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
 }
-
 #contact .form-wrapper input {
   padding: 1rem 2rem;
 }
-
 #contact .form-wrapper .form-head {
   text-align: center;
   padding: 4rem;
 }
-
 #contact .form-wrapper .name-form,
 #contact .form-wrapper .email-form {
   padding: 3rem;
@@ -291,46 +222,27 @@ footer {
   color: #0f0e0e;
   background: #fff;
 }
-
 footer .footer-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 2rem;
   width: 90%;
   margin: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   min-height: 10vh;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 footer .footer-wrapper img {
   width: 2.8rem;
 }
-
 footer .footer-wrapper h5 {
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 40rem;
-          flex: 2 1 40rem;
+  flex: 2 1 40rem;
 }
-
 footer .footer-wrapper ul {
   list-style: none;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex: 1 1 40rem;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -338,7 +250,6 @@ footer .footer-wrapper ul {
     font-size: 45%;
   }
 }
-
 @media screen and (max-width: 672px) {
   nav {
     text-align: center;
@@ -353,17 +264,15 @@ footer .footer-wrapper ul {
     padding-bottom: 2rem;
   }
 }
-
 @media screen and (max-width: 480px) {
   .form-wrapper {
     width: 95% !important;
     margin: auto;
   }
 }
-
 @media screen and (max-width: 374px) {
   .name-form,
-  .email-form {
+.email-form {
     padding: 1rem !important;
   }
   h2 {
@@ -373,10 +282,8 @@ footer .footer-wrapper ul {
     font-size: 2rem;
   }
 }
-
 @media screen and (max-width: 320px) {
   html {
     font-size: 40%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

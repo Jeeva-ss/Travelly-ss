@@ -1,64 +1,65 @@
 // GLobal Styles
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html,
 body {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-  line-height: 1.6;
-  font-family: "Montserrat", sans-serif;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	line-height: 1.6;
+	font-family: "Montserrat", sans-serif;
 }
 
 button {
-  padding: 1.3rem 2.1rem;
-  border: none;
-  border-radius: 0.4rem;
-  background: #192a56;
-  color: #fff;
-  cursor: pointer;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  transition: background 0.2s ease-in-out;
-  &:hover {
-    background: #273c75;
-  }
+	padding: 1.3rem 2.1rem;
+	border: none;
+	border-radius: 0.4rem;
+	background: #192a56;
+	color: #fff;
+	cursor: pointer;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	transition: background 0.2s ease-in-out;
+	&:hover {
+		background: #273c75;
+	}
 }
 
 li,
 label,
 input,
 p {
-  font-size: 2rem;
+	font-size: 2rem;
+	font-family: "Montserrat", sans-serif;
 }
 
 a {
-  color: #fff;
-  text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 
 h1 {
-  font-size: 2.6rem;
-  font-family: "Pattaya", sans-serif;
-  font-weight: 400;
+	font-size: 2.6rem;
+	font-family: "Pattaya", sans-serif;
+	font-weight: 400;
 }
 
 h2 {
-  font-size: 4.8rem;
+	font-size: 4.8rem;
 }
 
 h3 {
-  font-size: 3rem;
-  font-weight: 400;
+	font-size: 3rem;
+	font-weight: 400;
 }
 
 h4,
 h5 {
-  font-size: 2.8rem;
+	font-size: 2.8rem;
 }

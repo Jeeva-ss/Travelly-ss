@@ -1,24 +1,24 @@
 // Location
 
 #locations {
-  min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/img/location.jpg");
-  background-position: center;
-  background-size: cover;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  .locations-head {
-    width: 90%;
-    margin: auto;
-    h2 {
-      padding: 1rem 0;
-      text-decoration: underline;
-      text-decoration-thickness: 0.5rem;
-    }
-    h3 {
-      padding: 4rem 0;
-    }
-  }
+	min-height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("/img/location.jpg");
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	.locations-head {
+		width: 90%;
+		margin: auto;
+		h2 {
+			padding: 1rem 0;
+			text-decoration: underline;
+			text-decoration-thickness: 0.5rem;
+		}
+		h3 {
+			padding: 4rem 0;
+		}
+	}
 }
