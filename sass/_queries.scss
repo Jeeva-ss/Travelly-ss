@@ -1,48 +1,48 @@
 // Media Query
 
 @media screen and (max-width: 1024px) {
-  html {
-    font-size: 45%;
-  }
+	html {
+		font-size: 45%;
+	}
 }
 
 @media screen and (max-width: 672px) {
-  nav {
-    text-align: center;
-    #logo {
-      padding: 2rem;
-    }
-  }
-  footer {
-    text-align: center;
-  }
-  h5 {
-    padding-bottom: 2rem;
-  }
+	nav {
+		text-align: center;
+		#logo {
+			padding: 2rem;
+		}
+	}
+	footer {
+		text-align: center;
+	}
+	h5 {
+		padding-bottom: 2rem;
+	}
 }
 
 @media screen and (max-width: 480px) {
-  .form-wrapper {
-    width: 95% !important;
-    margin: auto;
-  }
+	.form-wrapper {
+		width: 95% !important;
+		margin: auto;
+	}
+	h2 {
+		font-size: 3.8rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
 }
 
 @media screen and (max-width: 374px) {
-  .name-form,
-  .email-form {
-    padding: 1rem !important;
-  }
-  h2 {
-    font-size: 3.8rem;
-  }
-  h3 {
-    font-size: 2rem;
-  }
+	.name-form,
+	.email-form {
+		padding: 1rem !important;
+	}
 }
 
 @media screen and (max-width: 320px) {
-  html {
-    font-size: 40%;
-  }
+	html {
+		font-size: 40%;
+	}
 }

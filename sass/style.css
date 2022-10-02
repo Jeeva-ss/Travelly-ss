@@ -46,6 +46,7 @@ h1 {
   font-size: 2.6rem;
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
+  cursor: pointer;
 }
 
 h2 {
@@ -95,7 +96,8 @@ h5 {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("/img/hero.jpg");
+  overflow-x: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url("/img/hero.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,7 +115,7 @@ h5 {
 
 #locations {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/img/location.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url("/img/location.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -179,7 +181,7 @@ h5 {
   min-height: 100vh;
   z-index: 9500;
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("/img/contact.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url("/img/contact.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -269,17 +271,17 @@ footer .footer-wrapper ul {
     width: 95% !important;
     margin: auto;
   }
-}
-@media screen and (max-width: 374px) {
-  .name-form,
-.email-form {
-    padding: 1rem !important;
-  }
   h2 {
     font-size: 3.8rem;
   }
   h3 {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 374px) {
+  .name-form,
+.email-form {
+    padding: 1rem !important;
   }
 }
 @media screen and (max-width: 320px) {
