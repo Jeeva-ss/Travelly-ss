@@ -92,16 +92,19 @@
 						<img src="./img/Travel.jpg" alt="Travel Picture" />
 						<h4>Travel</h4>
 						<p>Travel in over 250 countries with no effort</p>
+						<a href="#" class="btn">Read more</a>
 					</div>
 					<div class="card" data-aos="fade-up" data-aos-delay="400">
 						<img src="./img/Hotel.jpg" alt="Hotel Picture" />
 						<h4>Hotel</h4>
 						<p>Hotels located near popular areas</p>
+						<a href="#" class="btn">Read more</a>
 					</div>
 					<div class="card" data-aos="fade-up" data-aos-delay="600">
 						<img src="./img/Airport.jpg" alt="Airport Picture" />
 						<h4>Fly</h4>
 						<p>Flight included in every trip that you purchase</p>
+						<a href="#" class="btn">Read more</a>
 					</div>
 				</div>
 			</section>
@@ -146,7 +149,7 @@
 		<!-- Footer -->
 		<footer>
 			<div class="footer-wrapper">
-				<h5>Travelly &copy; 2022</h5>
+				<h5>Travelly &copy; <span></span></h5>
 				<ul>
 					<li>
 						<a href="#" title="Twitter"
@@ -171,5 +174,10 @@
 				</ul>
 			</div>
 		</footer>
+		<script>
+			const currentYear1 = document.querySelector(".footer-wrapper h5 span");
+			const currentYear2 = new Date().getFullYear();
+			currentYear1.innerText = currentYear2;
+		</script>
 	</body>
 </html>
